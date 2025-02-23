@@ -2,6 +2,11 @@
 
 * {
   font-family: "Poppins", serif;
+  /* border: 1px solid red; */
+}
+
+body {
+  box-sizing: border-box;
 }
 
 main {
@@ -10,6 +15,10 @@ main {
 
 .home .container {
   margin-top: 6rem;
+}
+
+.perawatan .container {
+  margin-top: 0 !important;
 }
 
 .home .hero p {
@@ -82,6 +91,14 @@ footer {
 
   .teks-hero {
     width: 100%;
+  }
+
+  .teks-hero h2 {
+    font-size: x-large;
+  }
+  
+  .teks-hero h5 {
+    font-size: large;
   }
 
   footer {
